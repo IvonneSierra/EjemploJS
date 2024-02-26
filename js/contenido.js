@@ -32,3 +32,10 @@ function imprimir() {
     a.document.close();
     a.print();
 }
+
+function nuevoTitulo(){
+    var contenido = document.getElementById('contenido');
+    var texto = document.getElementById("texto").value;
+    contenido.innerHTML = contenido.innerHTML + '<h1>' + texto + '</h1>';
+
+}
